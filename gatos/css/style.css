@@ -1,0 +1,118 @@
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0px;
+
+}
+
+
+
+header {
+  background-color: #2FE0A3;
+  text-align: center;
+  padding: 20px;
+}
+
+nav {
+  overflow: hidden;
+  background-color: #24AD7D;
+  padding: 3px;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: #146146;
+  text-align: center;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+
+body {
+  background-image: url(https://img.freepik.com/vector-gratis/conjunto-pata-gato-dibujos-animados_125371-18.jpg?size=626&ext=jpg);
+}
+
+
+nav a:hover {
+  color: rgba(27, 99, 51, 0.879);
+  background-color: aqua;
+}
+
+main {
+  padding: 20px 50px;
+  
+}
+
+main div {
+background-color: rgba(127, 255, 212, 0.904);
+}
+
+* {
+  margin: 50px;
+
+}
+footer {
+  background-color: #24AD7D;
+  text-align: center;
+  padding: 10px;
+  position: static;
+  bottom: 0;
+  width: 100%;
+}
+
+a img {
+  width: 300px; height: 200px;
+}
+
+
+
+.galeria{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  width: 95%;
+  margin: auto;
+  grid-gap: 100px;
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.galeria > a{
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 10px solid rgba(0, 0, 0, 0.685)
+}
+
+.galeria img{
+  width:100%;
+  vertical-align: top;
+  height:300px;
+  object-fit:cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+p {
+    color:rgb(0, 107, 68);
+}
+.owo {
+    color: rgb(0, 104, 104);
+}
+
+.ewe {
+  color: #020137;
+}
+
+.awa {
+  color: rgb(72, 27, 150);
+}
+  
+
+ 
