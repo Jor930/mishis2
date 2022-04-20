@@ -37,7 +37,9 @@ nav a {
 body {
   background-color: #75E6BE;
 }
-
+a { 
+  text-decoration: none;
+}
 
 nav a:hover {
   color: rgba(27, 99, 51, 0.879);
@@ -112,9 +114,7 @@ div {
 }
 
 
-.orden {
-  margin: 50%;
-}
+
 
 
 p {
